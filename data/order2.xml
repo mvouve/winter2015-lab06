@@ -5,7 +5,26 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 
+<!DOCTYPE order SYSTEM 'bonanza.dtd'>
 
-<root>
-    
-</root>
+<order type="takeout">
+    <customer>George</customer>
+    <burger>
+        <patty type="beef"/>
+        <cheeses top="american" bottom="swiss"/>
+        <sauce type ="ketchup"/>
+    </burger>
+    <burger>
+        <patty type="vege"/>
+        <cheeses top="gouda" bottom="gouda"/>
+        <topping type="lettuce"/>
+        <topping type="tomato"/>
+    </burger>
+    <burger>
+        <patty type="turkey"/>
+        <cheeses top="brie"/>
+        <topping type="raw"/>
+        <topping type ="salsa"/>
+        <sauce type="fksauce"/>
+    </burger>
+</order>
