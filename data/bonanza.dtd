@@ -4,7 +4,7 @@ Order placement data for Barker Bob's Burger Bar's Biger Better Burger Bonanza.
 -->
 
 <!-- An order identifies the customer order type burgers and anything special -->
-<!ELEMENT order (customer, order_type, burgers, special)>
+<!ELEMENT order (customer, delivery?, burger+, special?)>
 
 <!-- A customer is identified simply by their name -->
 <!ELEMENT customer (#PCDATA)>
