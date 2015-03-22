@@ -52,7 +52,7 @@ an optional name, should the customer wish to propose this as a menu item
 <!-- Sauces are similar to toppings-->
 <!ELEMENT sauce (#PCDATA)>
 <!ATTLIST sauce
-    type    (ketchup|mustard|mayo|fksauce) #REQUIRED
+    type    (ketchup|mustard|mayo|fksauce|peanut_butter) #REQUIRED
 >
 
 <!-- instructions could be anything -->
